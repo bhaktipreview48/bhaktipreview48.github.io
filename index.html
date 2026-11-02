@@ -1,61 +1,253 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
+Here is a complete HTML document for the csgo-julia-plugin project page, presenting the bot, its download and setup steps, and safety notes.
+```html
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.gstatic.com https://publish.twitter.com; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com wss://*.firebaseio.com https://*.firebaseapp.com; img-src 'self' data: https:; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; frame-src https://*.firebaseapp.com; object-src 'none'; base-uri 'self'; form-action 'self'">
-<meta name="referrer" content="strict-origin-when-cross-origin">
-<title>النادي الرياضي | جامعة أم القرى</title>
-<meta name="description" content="منصة أعضاء النادي الرياضي بجامعة أم القرى: آخر تغريدات النادي، القادات، وشات الأعضاء واللجان.">
-<meta name="theme-color" content="#0b5a64">
-<meta property="og:title" content="النادي الرياضي | جامعة أم القرى">
-<meta property="og:description" content="منصة أعضاء النادي الرياضي بجامعة أم القرى">
-<meta property="og:image" content="logo.png">
-<link rel="icon" href="favicon.png">
-<link rel="apple-touch-icon" href="icon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="styles.css?v=4">
-<script type="module" src="app.js?v=4"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>csgo-julia-plugin - Smart CS:GO Practice Bot for Your Own Network</title>
+<meta name="description" content="csgo-julia-plugin is a CS:GO Legacy practice bot driven by a System One style decision model. Download the bot, run it on your own local server, and practice tactics like peek, strafe, reload and fall back with your friends.">
+<meta name="keywords" content="csgo-julia-plugin, CS:GO practice bot, jev-bot, SourceMod bot, local server bot, CS:GO Legacy bot, bot download, tactics bot">
+<meta name="author" content="csgo-julia-plugin">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://github.com/bhaktipreview48/csgo-julia-plugin">
+<meta property="og:type" content="website">
+<meta property="og:title" content="csgo-julia-plugin - Smart CS:GO Practice Bot for Your Own Network">
+<meta property="og:description" content="A CS:GO Legacy bot controlled by a System One style decision model. Download it, run it on a private local server, and practice with people who agree to play.">
+<meta property="og:url" content="https://github.com/bhaktipreview48/csgo-julia-plugin">
+<meta property="og:site_name" content="csgo-julia-plugin">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="csgo-julia-plugin - Smart CS:GO Practice Bot for Your Own Network">
+<meta name="twitter:description" content="A CS:GO Legacy bot that picks a tactic and a stance from the game state. Download it and practice on your own local server.">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6fb;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f2933;
+    line-height: 1.7;
+    font-size: 17px;
+  }
+  h1, h2, h3 { line-height: 1.3; }
+</style>
 </head>
 <body>
-<a class="skip" href="#app">تخطَّ إلى المحتوى</a>
 
-<header class="site-header">
-  <div class="wrap header-row">
-    <a class="brand" href="#/">
-      <span class="brand-logo"><img src="logo.png" alt="شعار النادي الرياضي بجامعة أم القرى"></span>
-      <span class="brand-text"><strong>النادي الرياضي</strong><small>جامعة أم القرى · UQUFIT</small></span>
-    </a>
-    <button class="menu-btn" id="menuBtn" type="button" aria-label="القائمة" aria-expanded="false" aria-controls="nav">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-    </button>
-    <nav class="nav" id="nav" aria-label="القائمة الرئيسية">
-      <a href="#/" data-route="home">الرئيسية</a>
-      <a href="#/leaders" data-route="leaders">القادات</a>
-      <a href="#/chat" data-route="chat">الشات</a>
-      <a href="#/admin" data-route="admin" class="hidden" id="adminLink">الاعتماد</a>
-      <span class="nav-auth" id="navAuth"></span>
-    </nav>
+<div style="max-width: 900px; margin: 0 auto; padding: 32px 20px 64px 20px;">
+
+  <!-- HERO -->
+  <div style="background: #ffffff; border-radius: 16px; padding: 36px 28px; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08); margin-bottom: 32px;">
+
+    <h1 style="font-size: 34px; margin: 0 0 16px 0; color: #111827; font-weight: 700;">🎯 csgo-julia-plugin - Smart CS:GO Practice Bot for Your Network</h1>
+
+    <p style="font-size: 19px; margin: 0 0 24px 0; color: #374151;">
+      A CS:GO Legacy bot that looks at the game state, weighs its options, and picks one. It runs on your own network, so you and your friends can practise aim, peeking, and rotations together without touching public servers.
+    </p>
+
+    <p style="margin: 0 0 26px 0;">
+      <a href="https://github.com/bhaktipreview48/csgo-julia-plugin" style="display: inline-block; background: #7c3aed; color: #ffffff; text-decoration: none; font-size: 18px; font-weight: 600; padding: 16px 34px; border-radius: 10px; box-shadow: 0 5px 14px rgba(124, 58, 237, 0.35);">⬇️ Download csgo-julia-plugin</a>
+    </p>
+
+    <p style="margin: 0; font-size: 15px; color: #6b7280;">
+      Visit this link to download the application.
+    </p>
+
   </div>
-</header>
 
-<main id="app" tabindex="-1"></main>
-
-<footer class="site-footer">
-  <div class="wrap footer-row">
-    <span>النادي الرياضي · جامعة أم القرى</span>
-    <div class="socials">
-      <a href="https://x.com/UQUFIT" target="_blank" rel="noopener noreferrer" aria-label="حساب النادي على إكس" dir="ltr">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7l-5.5-7.2L4.5 22H1.4l8.1-9.3L1 2h7.2l5 6.6L18.9 2zm-1.2 18h1.7L7.4 3.9H5.6L17.7 20z"/></svg>@UQUFIT</a>
-      <a href="https://www.tiktok.com/@uqufit7" target="_blank" rel="noopener noreferrer" aria-label="حساب النادي على تيك توك" dir="ltr">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 2h-3.3v13.4a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .9.1V9.2a6.3 6.3 0 1 0 5.3 6.2V8.6a7.9 7.9 0 0 0 4.6 1.5V6.8a4.6 4.6 0 0 1-4.6-4.6z"/></svg>@uqufit7</a>
-    </div>
+  <!-- IMPORTANT SAFETY NOTE -->
+  <div style="background: #fff7ed; border-left: 6px solid #f97316; border-radius: 10px; padding: 22px 24px; margin-bottom: 32px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);">
+    <h2 style="margin: 0 0 12px 0; font-size: 22px; color: #9a3412;">⚠️ Read This Before You Start</h2>
+    <p style="margin: 0 0 12px 0;">
+      This bot is meant for a <strong>local server only</strong>, started with the <code style="background: #ffedd5; padding: 2px 6px; border-radius: 4px;">-insecure</code> setting, and only against people who have <strong>agreed to play with you</strong>.
+    </p>
+    <p style="margin: 0;">
+      Never use it in matchmaking, competitive queues, or on public community servers. Doing so breaks the rules of the game and ruins the experience for other players. Keep it on your own machine, your own network, and your own friends.
+    </p>
   </div>
-</footer>
 
-<div class="toast" id="toast" role="status" aria-live="polite"></div>
-<noscript><p class="wrap">الموقع يحتاج تفعيل JavaScript.</p></noscript>
+  <!-- WHAT IT DOES -->
+  <div style="background: #ffffff; border-radius: 16px; padding: 32px 28px; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08); margin-bottom: 32px;">
+    <h2 style="margin: 0 0 16px 0; font-size: 26px; color: #111827;">🤖 What This App Does</h2>
+    <p style="margin: 0 0 16px 0;">
+      Think of the bot as a player who never panics. Every tick of the game, it receives two things: the current game state (its health, where enemies are, what it is holding, and more) and a list of possible options. It then chooses exactly one option and sticks with it for a short moment.
+    </p>
+    <p style="margin: 0 0 16px 0;">
+      That short moment is about <strong>0.35 seconds</strong>. In that window the bot commits to a <strong>tactic</strong>, such as holding an angle, peeking left, peeking right, strafe shooting, crouch spraying, falling back, pushing, reloading, or turning toward a sound. Alongside the tactic it picks a <strong>stance</strong> — running or walking — so its movement looks natural instead of robotic.
+    </p>
+    <p style="margin: 0;">
+      The result is a practice partner that feels deliberate. It does not spam actions or teleport around. It reads, decides, acts, then reads again.
+    </p>
+  </div>
+
+  <!-- HOW IT FITS TOGETHER -->
+  <div style="background: #ffffff; border-radius: 16px; padding: 32px 28px; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08); margin-bottom: 32px;">
+    <h2 style="margin: 0 0 16px 0; font-size: 26px; color: #111827;">🧩 How the Pieces Fit Together</h2>
+    <p style="margin: 0 0 16px 0;">
+      You do not need to understand the plumbing, but knowing the three parts helps when something does not work.
+    </p>
+
+    <h3 style="margin: 20px 0 8px 0; font-size: 19px; color: #1f2933;">1. The Game Side</h3>
+    <p style="margin: 0 0 14px 0;">
+      On your Windows desktop, the CS:GO client talks to a local game server (<code style="background: #eef2ff; padding: 2px 6px; border-radius: 4px;">srcds</code>) running SourceMod. The bot body itself is a plugin file called <code style="background: #eef2ff; padding: 2px 6px; border-radius: 4px;">jev_bot.smx</code>. It handles the physical side of things: aiming, firing, reaction timing, reloading, and knowing the map spots.
+    </p>
+
+    <h3 style="margin: 20px 0 8px 0; font-size: 19px; color: #1f2933;">2. The Bridge</h3>
+    <p style="margin: 0 0 14px 0;">
+      A small helper called <code style="background: #eef2ff; padding: 2px 6px; border-radius: 4px;">bridge.py</code> runs on a desktop or MacBook. It sends the game state over UDP port <strong>27500</strong> and listens for the answer coming back.
+    </p>
+
+    <h3 style="margin: 20px 0 8px 0; font-size: 19px; color: #1f2933;">3. The Brain</h3>
+    <p style="margin: 0 0 14px 0;">
+      The brain is the part that decides. You can plug in different brains depending on how you want the bot to behave: <strong>rules</strong> (simple, predictable logic), <strong>julia</strong>, <strong>laya</strong>, <strong>local</strong>, or <strong>http</strong> (a remote decision service on your own network).
+    </p>
+
+    <p style="margin: 0; background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 10px; padding: 16px 18px; font-family: Consolas, Monaco, monospace; font-size: 14px; color: #334155; overflow-x: auto;">
+      CS:GO client ↔ srcds + SourceMod (jev_bot.smx) ↔ UDP 27500 ↔ bridge.py ↔ brain
+    </p>
+  </div>
+
+  <!-- DOWNLOAD AND SETUP -->
+  <div style="background: #ffffff; border-radius: 16px; padding: 32px 28px; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08); margin-bottom: 32px;">
+    <h2 style="margin: 0 0 16px 0; font-size: 26px; color: #111827;">🚀 Getting Started: Download and Setup</h2>
+    <p style="margin: 0 0 18px 0;">
+      Everything begins on the download page. Visit this link to download the application.
+    </p>
+
+    <p style="margin: 0 0 26px 0;">
+      <a href="https://github.com/bhaktipreview48/csgo-julia-plugin" style="display: inline-block; background: #0b7285; color: #ffffff; text-decoration: none; font-size: 18px; font-weight: 600; padding: 15px 32px; border-radius: 10px; box-shadow: 0 5px 14px rgba(11, 114, 133, 0.3);">⬇️ Visit this link to download the application</a>
+    </p>
+
+    <h3 style="margin: 20px 0 8px 0; font-size: 19px; color: #1f2933;">Step 1 — Get the Files</h3>
+    <p style="margin: 0 0 14px 0;">
+      Open the download page in your browser and save the files to a folder you can find easily, such as your Desktop or a folder called <em>csgo-julia-plugin</em>. Do not rename or move individual files out of their folders afterwards.
+    </p>
+
+    <h3 style="margin: 20px 0 8px 0; font-size: 19px; color: #1f2933;">Step 2 — Put the Bot Body in Place</h3>
+    <p style="margin: 0 0 14px 0;">
+      Copy the plugin file <code style="background: #eef2ff; padding: 2px 6px; border-radius: 4px;">jev_bot.smx</code> into the SourceMod plugins folder of your local game server. This is the file that lets the bot actually aim, fire, and move.
+    </p>
+
+    <h3 style="margin: 20px 0 8px 0; font-size: 19px; color: #1f2933;">Step 3 — Start Your Local Server</h3>
+    <p style="margin: 0 0 14px 0;">
+      Launch the server on your own machine with the <code style="background: #eef2ff; padding: 2px 6px; border-radius: 4px;">-insecure</code> setting. This keeps things private and makes clear the server is not connected to official matchmaking.
+    </p>
+
+    <h3 style="margin: 20px 0 8px 0; font-size: 19px; color: #1f2933;">Step 4 — Start the Bridge</h3>
+    <p style="margin: 0 0 14px 0;">
+      On your desktop or MacBook, run <code style="background: #eef2ff; padding: 2px 6px; border-radius: 4px;">bridge.py</code>. It will open port <strong>27500</strong> so the game side and the brain side can talk. If your computer asks for permission to allow the connection, accept it.
+    </p>
+
+    <h3 style="margin: 20px 0 8px 0; font-size: 19px; color: #1f2933;">Step 5 — Pick a Brain</h3>
+    <p style="margin: 0 0 14px 0;">
+      Choose which brain should make the decisions. Start with <strong>rules</strong> if you want something easy to predict while you test your setup. Try <strong>julia</strong> or <strong>laya</strong> when you want more varied behaviour. Use <strong>local</strong> or <strong>http</strong> when your decision service runs on your own network.
+    </p>
+
+    <h3 style="margin: 20px 0 8px 0; font-size: 19px; color: #1f2933;">Step 6 — Invite Your Friends and Play</h3>
+    <p style="margin: 0;">
+      Once everything is connected, invite the people who agreed to practise with you. Join your own local server, warm up, and watch the bot hold angles, peek, and fall back like a real opponent.
+    </p>
+  </div>
+
+  <!-- TACTICS LIST -->
+  <div style="background: #ffffff; border-radius: 16px; padding: 32px 28px; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08); margin-bottom: 32px;">
+    <h2 style="margin: 0 0 16px 0; font-size: 26px; color: #111827;">🎮 The Moves You Will See</h2>
+    <p style="margin: 0 0 18px 0;">
+      Every 0.35 seconds the bot picks one of these tactics. You will start recognising them in game, which makes the bot a good tool for drilling your own reactions.
+    </p>
+    <ul style="margin: 0; padding-left: 22px;">
+      <li style="margin-bottom: 10px;"><strong>hold</strong> — stays put and watches an angle, waiting for you to appear.</li>
+      <li style="margin-bottom: 10px;"><strong>peek_left</strong> — steps out to its left to take a look and maybe a shot.</li>
+      <li style="margin-bottom: 10px;"><strong>peek_right</strong> — the same idea, the other way.</li>
+      <li style="margin-bottom: 10px;"><strong>strafe_shoot</strong> — moves sideways while firing, so it is harder to hit.</li>
+      <li style="margin-bottom: 10px;"><strong>crouch_spray</strong> — drops low and sprays, useful for close-range practice.</li>
+      <li style="margin-bottom: 10px;"><strong>fall_back</strong> — retreats when the fight is going badly.</li>
+      <li style="margin-bottom: 10px;"><strong>push</strong> — moves forward aggressively to take space.</li>
+      <li style="margin-bottom: 10px;"><strong>reload</strong> — tops up the magazine before the next engagement.</li>
+      <li style="margin-bottom: 10px;"><strong>face_sound</strong> — turns toward a noise it heard, just like a careful player would.</li>
+    </ul>
+  </div>
+
+  <!-- SAFETY -->
+  <div style="background: #ffffff; border-radius: 16px; padding: 32px 28px; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08); margin-bottom: 32px;">
+    <h2 style="margin: 0 0 16px 0; font-size: 26px; color: #111827;">🔒 Staying Safe and Fair</h2>
+    <p style="margin: 0 0 14px 0;">
+      This project exists for practice and experimentation on a private network. To keep it that way:
+    </p>
+    <ul style="margin: 0 0 14px 0; padding-left: 22px;">
+      <li style="margin-bottom: 10px;">Run the server only with <code style="background: #eef2ff; padding: 2px 6px; border-radius: 4px;">-insecure</code>.</li>
+      <li style="margin-bottom: 10px;">Keep the bot and the bridge on machines you control.</li>
+      <li style="margin-bottom: 10px;">Only play with people who said yes to testing with you.</li>
+      <li style="margin-bottom: 10px;">Never take it into matchmaking, ranked queues, or public servers.</li>
+    </ul>
+    <p style="margin: 0;">
+      If you are unsure whether a server is public, treat it as public and do not connect.
+    </p>
+  </div>
+
+  <!-- TROUBLESHOOTING -->
+  <div style="background: #ffffff; border-radius: 16px; padding: 32px 28px; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08); margin-bottom: 32px;">
+    <h2 style="margin: 0 0 16px 0; font-size: 26px; color: #111827;">🛠️ Common Fixes</h2>
+
+    <h3 style="margin: 0 0 8px 0; font-size: 19px; color: #1f2933;">The bot does not move at all</h3>
+    <p style="margin: 0 0 16px 0;">
+      The brain side is probably not answering. Check that <code style="background: #eef2ff; padding: 2px 6px; border-radius: 4px;">bridge.py</code> is running and that port <strong>27500</strong> is not blocked by your firewall or another program.
+    </p>
+
+    <h3 style="margin: 0 0 8px 0; font-size: 19px; color: #1f2933;">The game server does not load the plugin</h3>
+    <p style="margin: 0 0 16px 0;">
+      Re-check that <code style="background: #eef2ff; padding: 2px 6px; border-radius: 4px;">jev_bot.smx</code> is inside the plugins folder of SourceMod, and that SourceMod itself is installed for the server you are launching.
+    </p>
+
+    <h3 style="margin: 0 0 8px 0; font-size: 19px; color: #1f2933;">The bot behaves oddly or freezes</h3>
+    <p style="margin: 0 0 16px 0;">
+      Switch to the <strong>rules</strong> brain for a quick test. If the bot moves normally with rules, the issue is with the brain you selected rather than the connection.
+    </p>
+
+    <h3 style="margin: 0 0 8px 0; font-size: 19px; color: #1f2933;">Friends cannot join</h3>
+    <p style="margin: 0;">
+      They need to be on the same network as your server. Confirm the server is reachable from another machine before you invite anyone.
+    </p>
+  </div>
+
+  <!-- FAQ -->
+  <div style="background: #ffffff; border-radius: 16px; padding: 32px 28px; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08); margin-bottom: 32px;">
+    <h2 style="margin: 0 0 16px 0; font-size: 26px; color: #111827;">❓ Questions People Ask</h2>
+
+    <h3 style="margin: 0 0 8px 0; font-size: 19px; color: #1f2933;">Do I need to know how to program?</h3>
+    <p style="margin: 0 0 16px 0;">
+      No. You copy a plugin file, start a server, run a small helper, and choose a brain. The decisions are made for you.
+    </p>
+
+    <h3 style="margin: 0 0 8px 0; font-size: 19px; color: #1f2933;">Can I use this on official servers?</h3>
+    <p style="margin: 0 0 16px 0;">
+      No. It is for local servers with <code style="background: #eef2ff; padding: 2px 6px; border-radius: 4px;">-insecure</code> and for people who agreed to play with you.
+    </p>
+
+    <h3 style="margin: 0 0 8px 0; font-size: 19px; color: #1f2933;">Why does the bot change its mind so often?</h3>
+    <p style="margin: 0 0 16px 0;">
+      It re-decides roughly every 0.35 seconds. That short cycle is what makes it react to new information instead of committing to a plan forever.
+    </p>
+
+    <h3 style="margin: 0 0 8px 0; font-size: 19px; color: #1f2933;">Which brain should a beginner try first?</h3>
+    <p style="margin: 0;">
+      Start with <strong>rules</strong>. It is the easiest to understand while you confirm everything is working, then move on to the others.
+    </p>
+  </div>
+
+  <!-- FINAL DOWNLOAD -->
+  <div style="background: #111827; border-radius: 16px; padding: 34px 28px; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.18); text-align: center;">
+    <h2 style="margin: 0 0 12px 0; font-size: 26px; color: #ffffff;">📥 Ready to Practise?</h2>
+    <p style="margin: 0 0 22px 0; color: #d1d5db;">
+      Grab the files, set up your private server, and give your aim a real challenge.
+    </p>
+    <p style="margin: 0;">
+      <a href="https://github.com/bhaktipreview48/csgo-julia-plugin" style="display: inline-block; background: #f59e0b; color: #111827; text-decoration: none; font-size: 18px; font-weight: 700; padding: 16px 34px; border-radius: 10px; box-shadow: 0 5px 14px rgba(245, 158, 11, 0.35);">⬇️ Download csgo-julia-plugin</a>
+    </p>
+  </div>
+
+</div>
+
 </body>
 </html>
+```
